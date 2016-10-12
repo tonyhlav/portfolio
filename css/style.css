@@ -217,8 +217,7 @@ body {
   height: 54px;
   background: rgba(99, 99, 99, 0.2);
   text-align: center;
-  margin-right: 6px;
-  margin-left: 6px;
+  margin:6px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -256,7 +255,7 @@ body {
   margin-bottom: 0;
 }
 
-.copy-r p a{color:#59c2ad;}
+.copy-r p a{font-weight: bold;color:#3f3f3f;}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -290,4 +289,5 @@ body {
   .l-cta{font-size:16px;}
   .subscribe{height: 500px;}
   .overlay-s{height: 500px;}
+  .g-row{padding:20px;}
 }
